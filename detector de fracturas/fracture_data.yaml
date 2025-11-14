@@ -1,0 +1,15 @@
+# fracture_data.yaml
+
+# Ruta base a tu carpeta 'dataset_fracturas'.
+# ¡IMPORTANTE: Reemplaza '/ruta/absoluta/a/tu/dataset_fracturas' con la ruta real!
+# Ejemplo: si tu dataset está en C:\Users\TuUsuario\proyectos\deteccion_fracturas\dataset_fracturas
+# entonces path: C:\Users\TuUsuario\proyectos\deteccion_fracturas\dataset_fracturas
+path: C:\Users\quesi\Desktop\detector de fracturas\dataset_fracturas
+
+# Rutas relativas a las carpetas de imágenes de entrenamiento y validación desde la ruta base.
+train: images/train
+val: images/val
+
+# Número de clases y sus nombres
+nc: 1                 # Solo una clase: "fractura"
+names: ['fractura']   # Nombre de la clase 0
